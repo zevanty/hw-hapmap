@@ -24,7 +24,7 @@ This method uses hashtables and it deals with mutations as well. The difference 
 * Uses up a lot of memory to store the hashtable, meaning it probably won't be ideal for very large reference sequences
 
 ## Lucene Indexing
-This is similar to the hashtable indexing, except I index onto a file instead of in memory. This is achieved with Lucene, a tool written in Java that handles indexes and searching. You will need to download the tool (Java library) before you can use it. For more information on Lucene, see: https://lucene.apache.org/core/.
+This is similar to the hashtable indexing, except I index onto a file instead of in memory. This is achieved with Lucene, a tool written in Java that handles indexes and searching. You will need to download the tool (Java library) before you can use it. For more information on Lucene, see: https://lucene.apache.org/core/. For convenience, I've included the library in the `lib` folder.
 
 **Pros**
 * Ideally, can perform searches faster after index is built
