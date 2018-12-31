@@ -24,7 +24,7 @@ This method uses hashtables and it deals with mutations as well. The difference 
 * Uses up a lot of memory to store the hashtable, meaning it probably won't be ideal for very large reference sequences
 
 ## Lucene Indexing
-This is similar to the hashtable indexing, except I index onto a file instead of in memory. This is achieved with Lucene, a tool written in Java that handles indexes and searching. You will need to download the tool (Java library) before you can use it. For more information on Lucene, see: https://lucene.apache.org/core/
+This is similar to the hashtable indexing, except I index onto a file instead of in memory. This is achieved with Lucene, a tool written in Java that handles indexes and searching. You will need to download the tool (Java library) before you can use it. For more information on Lucene, see: https://lucene.apache.org/core/.
 
 **Pros**
 * Ideally, can perform searches faster after index is built
@@ -37,3 +37,6 @@ This is similar to the hashtable indexing, except I index onto a file instead of
 
 # Usage
 When the user starts the program (`HapMapProject.java`), the user will be given a menu of which algorithm to perform the search. The user also must specify the file location of the reference sequence and provide a subsequence to search for. All my algorithms filter out non-ATCG characters. After a user performs a search, the user can search again using different sequences. For the file index search, the user has the option to either build a new index or use an existing one. 
+
+# Sample Data
+To generate a sample data for testing, run either the perl or python script located in the `util` folder and it will generate a `sample-sequence.txt` file that contains a random DNA sequence with invalid characters as well.

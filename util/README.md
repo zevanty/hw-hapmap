@@ -1,0 +1,1 @@
+Run either the perl or python script to generate a `sample-sequence.txt` file that will contain a random DNA sequence that contains invalid characters.
